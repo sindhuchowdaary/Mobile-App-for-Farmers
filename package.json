@@ -1,34 +1,25 @@
 {
-  "name": "argparse",
-  "description": "Very powerful CLI arguments parser. Native port of argparse - python's options parsing library",
-  "version": "1.0.10",
-  "keywords": [
-    "cli",
-    "parser",
-    "argparse",
-    "option",
-    "args"
-  ],
-  "contributors": [
-    "Eugene Shkuropat",
-    "Paul Jacobson"
-  ],
-  "files": [
-    "index.js",
-    "lib/"
-  ],
-  "license": "MIT",
-  "repository": "nodeca/argparse",
+  "name": "absolute-path",
+  "version": "0.0.0",
+  "description": "Node.js 0.11.x path.isAbsolute as a separate module",
+  "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "node test/index.js"
   },
-  "dependencies": {
-    "sprintf-js": "~1.0.2"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filearts/node-absolute-path"
   },
-  "devDependencies": {
-    "eslint": "^2.13.1",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.1.0",
-    "ndoc": "^5.0.1"
-  }
+  "keywords": [
+    "path",
+    "absolute",
+    "isabsolute",
+    "windows"
+  ],
+  "author": "Geoff Goodman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filearts/node-absolute-path/issues"
+  },
+  "homepage": "https://github.com/filearts/node-absolute-path"
 }
